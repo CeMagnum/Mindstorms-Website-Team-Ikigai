@@ -12,3 +12,9 @@
 *::-webkit-scrollbar {
     display: none;
 }
+
+svg {
+    display: block;
+    font: 10rem 'Helvetica';
+    margin: 0 auto;
+}

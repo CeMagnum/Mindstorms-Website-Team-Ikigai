@@ -11,7 +11,7 @@ body {
     font-family: open-sans, sans-serif;
     width: 100vw;
     height: 100vh;
-    max-width:100%;
+    max-width: 100%;
 }
 
 a {
@@ -25,6 +25,10 @@ a:hover {
 }
 
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #151922;
     padding-top: .5em;
     padding-bottom: .5em;
@@ -34,7 +38,7 @@ nav {
     align-items: center;
     padding-left: 1em;
     padding-right: 1em;
-    max-width:100%;
+    max-width: 100%;
 }
 
 #navlinks a {
@@ -43,9 +47,10 @@ nav {
 }
 
 main {
+    padding-top: 2.5em;
     display: flex;
     height: 100%;
-    max-width:100%;
+    max-width: 100%;
 }
 
 main #left {

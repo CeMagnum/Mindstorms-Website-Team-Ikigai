@@ -11,6 +11,7 @@ body {
     font-family: open-sans, sans-serif;
     width: 100vw;
     height: 100vh;
+    max-width:100%;
 }
 
 a {
@@ -33,6 +34,7 @@ nav {
     align-items: center;
     padding-left: 1em;
     padding-right: 1em;
+    max-width:100%;
 }
 
 #navlinks a {
@@ -43,6 +45,7 @@ nav {
 main {
     display: flex;
     height: 100%;
+    max-width:100%;
 }
 
 main #left {

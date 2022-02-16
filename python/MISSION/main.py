@@ -14,7 +14,7 @@ USS = UltrasonicSensor(Port.S4)
 R = 3
 W = 62
 TH = (R + W) / 2
-DS = 100    
+DS = 50    
 PG = 5.2
 IG = 0.008
 DG = 0.001
@@ -36,7 +36,7 @@ while True:
     LE=E
     while USS.distance() <= 100:
         BONK.run(-1000)
-        ev3.speaker.say("muda")
+        ev3.speaker.say("mooda")
     while USS.distance() >= 100:
         BONK.run(0)
         break

@@ -7,7 +7,7 @@ waar de live versie te vinden is
 ## INDEX
 > Description
 >
-> Dependancies
+> Dependencies
 >
 > Dev env
 >
@@ -26,7 +26,7 @@ This is a group project in wich we are required to build a:
 In this repository you will find; the code for the website and robot, and the picture/video files/links.
 
 ---
-# Dependancies
+## Dependencies
 The website requires:
 * Github
 * Docker
@@ -35,3 +35,9 @@ The code for the robot requires:
 * Visual studio code
 * LEGO® MINDSTORMS® EV3 MicroPython VSC extention
 * ev3dev-browser VSC extention
+---
+## Dev env
+How to set up a developer environment:
+1. item1
+2. item2
+3. item3

@@ -32,12 +32,29 @@ The website requires:
 * Docker
   
 The code for the robot requires:
-* Visual studio code
+* Visual studio code (VSC)
 * LEGO® MINDSTORMS® EV3 MicroPython VSC extention
 * ev3dev-browser VSC extention
+* Github desktop
 ---
 ## Dev env
 How to set up a developer environment:
-1. item1
-2. item2
-3. item3
+1. Set up VSC
+2. Set up github desktop
+3. Create a new project in github desktop
+4. Open with VSC
+5. Open addons panel
+6. Install the earlier-mentioned plugins
+7. Profit
+---
+  
+## Where to find
+> Github repo:
+> * [Link to repo](https://github.com/CeMagnum/Mindstorms-Website-Team-Ikigai “Link to repo”)
+> or
+> * https://github.com/CeMagnum/Mindstorms-Website-Team-Ikigai
+  
+> Website:
+> * [Link to Website](https://cemagnum.github.io/Mindstorms-Website-Team-Ikigai/ “Link to Website”)
+> or
+> https://cemagnum.github.io/Mindstorms-Website-Team-Ikigai/

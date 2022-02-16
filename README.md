@@ -21,4 +21,7 @@ This is a group project in wich we are required to build a
 * website about it
 * logo
 * video
+* pictures
+  
+  
 In this repository you will find; the code for the website and robot, and the picture/video files/links.

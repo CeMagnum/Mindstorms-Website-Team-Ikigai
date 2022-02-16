@@ -50,11 +50,16 @@ How to set up a developer environment:
   
 ## Where to find
 > Github repo:
-> [Link to repo](https://github.com/CeMagnum/Mindstorms-Website-Team-Ikigai “Link to repo”)
-> or
-> https://github.com/CeMagnum/Mindstorms-Website-Team-Ikigai
-  
-> Website:
-> [Link to Website](https://cemagnum.github.io/Mindstorms-Website-Team-Ikigai/ “Link to Website”)
-> or
-> https://cemagnum.github.io/Mindstorms-Website-Team-Ikigai/
+[Link to repo](https://github.com/CeMagnum/Mindstorms-Website-Team-Ikigai “Link to repo”)
+<br>
+or
+<br>
+https://github.com/CeMagnum/Mindstorms-Website-Team-Ikigai
+<br>
+Website:
+<br>
+[Link to Website](https://cemagnum.github.io/Mindstorms-Website-Team-Ikigai/ “Link to Website”)
+<br>
+or
+<br>
+https://cemagnum.github.io/Mindstorms-Website-Team-Ikigai/

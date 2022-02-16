@@ -14,11 +14,11 @@ waar de live versie te vinden is
 > where to find
 >
 ---
-<br>
 
-# Description
+## Description
 This is a group project in wich we are required to build a
 * line following robot
 * website about it
 * logo
 * video
+In this repository you will find; the code for the website and robot, and the picture/video files/links.

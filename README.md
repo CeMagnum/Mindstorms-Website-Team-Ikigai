@@ -6,7 +6,10 @@ waar de live versie te vinden is
 
 ## INDEX
 > Description
+>
 > Dependancies
+>
 > dev env
+>
 > where to find
-
+>

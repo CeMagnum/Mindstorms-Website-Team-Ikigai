@@ -126,7 +126,7 @@ main #center h2 {
 }
 
 .row {
-    
+    /* illcenterthedivstomorrow */
 }
 
 .row img{
@@ -134,8 +134,7 @@ main #center h2 {
     margin: 20px;
     object-fit: cover;
     width: 25%;
-    height: 50%;
-    
+    height: 50%;   
 }
 
 .image1 {

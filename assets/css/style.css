@@ -59,6 +59,10 @@ main #left {
     padding-left: 1em;
     padding-right: .5em;
     background-color: #151922;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 main #right {
@@ -67,29 +71,64 @@ main #right {
     padding-left: .5em;
     padding-right: 1em;
     background-color: #c94337;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.textcontainer {
+    text-align: center;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
 
-.city1{
+.textcontainer p {
+    text-align: left;
+}
+
+.image1 {
+    background-color: whitesmoke;
+    width: 20em;
+    height: 30em;
+    z-index: 1;
+    margin-top: 6em;
+}
+
+.image2 {
+    background-color: teal;
+    width: 10em;
+    height: 15em;
+    z-index: 2;
+    margin-left: 12em;
+    margin-top: -11em
+}
+
+.title {
     background-color: red;
-   width: 60%;
-   height: 10%;
-   text-align: center;
-   margin: 40px auto 40px auto;
+    width: 60%;
+    height: 10%;
+    text-align: center;
+    margin: 40px auto 40px auto;
 }
 
 
-.city{
+.youtube1 {
     width: 50%;
     height: 50%;
     background-color: blue;
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
 }
 
 
-.city2{
+.city2 {
     background-color: red;
     width: 55%;
     height: 25%;
@@ -97,15 +136,15 @@ main #right {
     margin: 40px auto 40px auto;
 }
 
-.city3{
+.city3 {
     background-color: red;
-   width: 60%;
-   height: 10%;
-   text-align: center;
-   margin: 40px auto 40px auto;
+    width: 60%;
+    height: 10%;
+    text-align: center;
+    margin: 40px auto 40px auto;
 }
 
-.city4{
+.city4 {
     background-color: red;
     display: inline-block;
     height: 200px;
@@ -113,10 +152,10 @@ main #right {
     margin: 20px;
 }
 
-.city5{
+.city5 {
     background-color: red;
     display: inline-block;
     height: 200px;
     width: 200px;
-    margin: 20px;  
+    margin: 20px;
 }

@@ -88,7 +88,7 @@ main #center {
     background-color: #151922;
     display: flex;
     width: 100%;
-    height: 120%;
+    height: fit-content;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -98,9 +98,7 @@ main #center iframe {
     width: 60vw !important;
     height: 69vh !important;
     margin-top: 2em;
-    margin-bottom: 3em;
-    /* -webkit-box-shadow: 0px 9px 0px 21px #C94337; 
-    box-shadow: 0px 9px 0px 21px #C94337; */
+    margin-bottom: 1em;
 }
 
 main #center h2 {
@@ -111,14 +109,33 @@ main #center h2 {
     text-align: center;
     margin-left: 1.5em;
     margin-right: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .textcontainer p {
     text-align: left;
 }
 
+#center .textcontainer {
+    width: 60%;
+}
+
 #center .textcontainer p{
     text-align: center;
+}
+
+.row {
+    
+}
+
+.row img{
+    background-color: black;
+    margin: 20px;
+    object-fit: cover;
+    width: 25%;
+    height: 50%;
+    
 }
 
 .image1 {
@@ -136,62 +153,6 @@ main #center h2 {
     z-index: 2;
     margin-left: 12em;
     margin-top: -11em
-}
-
-.title {
-    background-color: #c94337;
-    width: 60%;
-    height: 10%;
-    text-align: center;
-    margin: 40px auto 40px auto;
-}
-
-
-.youtube1 {
-    width: 50%;
-    height: 50%;
-    background-color: blue;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-iframe {
-    width: 100%;
-    height: 100%;
-}
-
-
-.city2 {
-    background-color: #c94337;
-    width: 55%;
-    height: 25%;
-    text-align: center;
-    margin: 40px auto 40px auto;
-}
-
-.city3 {
-    background-color: #c94337;
-    width: 60%;
-    height: 10%;
-    text-align: center;
-    margin: 40px auto 40px auto;
-}
-
-.city4 {
-    background-color: #c94337;
-    display: inline-block;
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-}
-
-.city5 {
-    background-color: #c94337;
-    display: inline-block;
-    height: 200px;
-    width: 200px;
-    margin: 20px;
 }
 
 /* animations */

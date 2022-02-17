@@ -68,3 +68,55 @@ main #right {
     padding-right: 1em;
     background-color: #c94337;
 }
+
+
+.city1{
+    background-color: red;
+   width: 60%;
+   height: 10%;
+   text-align: center;
+   margin: 40px auto 40px auto;
+}
+
+
+.city{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.city2{
+    background-color: red;
+    width: 55%;
+    height: 25%;
+    text-align: center;
+    margin: 40px auto 40px auto;
+}
+
+.city3{
+    background-color: red;
+   width: 60%;
+   height: 10%;
+   text-align: center;
+   margin: 40px auto 40px auto;
+}
+
+.city4{
+    background-color: red;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+}
+
+.city5{
+    background-color: red;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 20px;  
+}

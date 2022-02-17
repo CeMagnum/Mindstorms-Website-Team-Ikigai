@@ -59,10 +59,6 @@ main #left {
     padding-left: 1em;
     padding-right: .5em;
     background-color: #151922;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 main #right {
@@ -71,35 +67,56 @@ main #right {
     padding-left: .5em;
     padding-right: 1em;
     background-color: #c94337;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.textcontainer {
+
+.city1{
+    background-color: red;
+   width: 60%;
+   height: 10%;
+   text-align: center;
+   margin: 40px auto 40px auto;
+}
+
+
+.city{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.city2{
+    background-color: red;
+    width: 55%;
+    height: 25%;
     text-align: center;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
+    margin: 40px auto 40px auto;
 }
 
-.textcontainer p {
-    text-align: left;
+.city3{
+    background-color: red;
+   width: 60%;
+   height: 10%;
+   text-align: center;
+   margin: 40px auto 40px auto;
 }
 
-.image1 {
-    background-color: whitesmoke;
-    width: 20em;
-    height: 30em;
-    z-index: 1;
-    margin-top: 6em;
+.city4{
+    background-color: red;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
 }
 
-.image2 {
-    background-color: teal;
-    width: 10em;
-    height: 15em;
-    z-index: 2;
-    margin-left: 12em;
-    margin-top: -11em
+.city5{
+    background-color: red;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    margin: 20px;  
 }

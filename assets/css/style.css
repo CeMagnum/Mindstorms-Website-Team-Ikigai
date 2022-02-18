@@ -1,221 +1,225 @@
-@import url(//db.onlinewebfonts.com/c/76163db5a691010559b95db3a3e10fdc?family=Costa+Std);
+ @font-face {
+     font-family: "Costa Std";
+     src: url("//db.onlinewebfonts.com/t/76163db5a691010559b95db3a3e10fdc.eot");
+     src: url("//db.onlinewebfonts.com/t/76163db5a691010559b95db3a3e10fdc.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/76163db5a691010559b95db3a3e10fdc.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/76163db5a691010559b95db3a3e10fdc.woff") format("woff"), url("//db.onlinewebfonts.com/t/76163db5a691010559b95db3a3e10fdc.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/76163db5a691010559b95db3a3e10fdc.svg#Costa Std") format("svg");
+ }
 
-/* css reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    scrollbar-width: none;
-    scroll-behavior: smooth;
-}
+ /* css reset */
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     scrollbar-width: none;
+     scroll-behavior: smooth;
+ }
 
-*::-webkit-scrollbar {
-    display: none;
-}
+ *::-webkit-scrollbar {
+     display: none;
+ }
 
-body {
-    background-color: #151922;
-    color: white;
-    font-family: open-sans, sans-serif;
-    width: 100vw;
-    height: 100vh;
-    max-width: 100%;
-}
+ body {
+     background-color: #151922;
+     color: white;
+     font-family: open-sans, sans-serif;
+     width: 100vw;
+     height: 100vh;
+     max-width: 100%;
+ }
 
-a {
-    text-decoration: none;
-    color: white;
-    transition: all 0.3s;
-}
+ a {
+     text-decoration: none;
+     color: white;
+     transition: all 0.3s;
+ }
 
-a:hover {
-    letter-spacing: .2em;
-}
+ a:hover {
+     letter-spacing: .2em;
+ }
 
-#logo {
-    font-family: Costa Std;
-}
+ #logo {
+     font-family: 'Costa Std';
+ }
 
-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: #151922;
-    padding-top: .5em;
-    padding-bottom: .5em;
-    height: 2.5em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-left: 1em;
-    padding-right: 1em;
-    max-width: 100%;
-}
+ nav {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     background-color: #151922;
+     padding-top: .5em;
+     padding-bottom: .5em;
+     height: 2.5em;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-left: 1em;
+     padding-right: 1em;
+     max-width: 100%;
+ }
 
-#navlinks a {
-    margin-left: 1em;
-    margin-right: 1em;
-}
+ #navlinks a {
+     margin-left: 1em;
+     margin-right: 1em;
+ }
 
-main {
-    padding-top: 2.5em;
-    display: flex;
-    height: 100%;
-    max-width: 100%;
-    animation: fadein 0.5s;
-}
+ main {
+     padding-top: 2.5em;
+     display: flex;
+     height: 100%;
+     max-width: 100%;
+     animation: fadein 0.5s;
+ }
 
-main #left {
-    width: 60%;
-    height: 100%;
-    padding-left: 1em;
-    padding-right: .5em;
-    background-color: #151922;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+ main #left {
+     width: 60%;
+     height: 100%;
+     padding-left: 1em;
+     padding-right: .5em;
+     background-color: #151922;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
 
-main #right {
-    width: 40%;
-    height: 100%;
-    padding-left: .5em;
-    padding-right: 1em;
-    background-color: #c94337;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+ main #right {
+     width: 40%;
+     height: 100%;
+     padding-left: .5em;
+     padding-right: 1em;
+     background-color: #c94337;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
 
-main #center {
-    background-color: #151922;
-    display: flex;
-    width: 100%;
-    height: fit-content;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+ main #center {
+     background-color: #151922;
+     display: flex;
+     width: 100%;
+     height: fit-content;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
 
-main #center video {
-    width: 100%;
-    margin-top: 2em;
-    margin-bottom: 1em;
-    background-color: #151922;
-}
+ main #center video {
+     width: 100%;
+     margin-top: 2em;
+     margin-bottom: 1em;
+     background-color: #151922;
+ }
 
-main #center h2 {
-    padding-bottom: 1em;
-}
+ main #center h3 {
+     padding-bottom: 1em;
+ }
 
-.textcontainer {
-    text-align: center;
-    margin-left: 1.5em;
-    margin-right: 1.5em;
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
+ .textcontainer {
+     text-align: center;
+     margin-left: 1.5em;
+     margin-right: 1.5em;
+     margin-top: 1em;
+     margin-bottom: 1em;
+ }
 
-.textcontainer p {
-    text-align: left;
-}
+ .textcontainer p {
+     text-align: left;
+ }
 
-.textcontainer h2 {
-    font-family: Costa Std;
-    text-align: left;
-}
+ .textcontainer h2 {
+     font-family: 'Costa Std';
+     text-align: left;
+ }
 
-#left .textcontainer p {
-    font-size: 2em;
-    margin-bottom: .3em;
-}
+ #left .textcontainer p {
+     font-size: 2em;
+     margin-bottom: .3em;
+ }
 
-.textcontainer #logo {
-    font-size: 5em;
-    text-align: left;
-}
+ .textcontainer #logo {
+     font-size: 5em;
+     text-align: left;
+ }
 
-#center .textcontainer {
-    width: 60%;
-}
+ #center .textcontainer {
+     width: 60%;
+ }
 
-#center .textcontainer p {
-    text-align: center;
-}
+ #center .textcontainer p {
+     text-align: center;
+ }
 
-#center .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+ #center .row {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
-.row img {
-    margin-top: 1em;
-    margin-bottom: 1em;
-    width: 80%;
-}
+ .row img {
+     margin-top: 1em;
+     margin-bottom: 1em;
+     width: 80%;
+ }
 
-.image1 {
-    background-image: url(../img/DSC07471\ left.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 20em;
-    height: 30em;
-    z-index: 1;
-    margin-top: 6em;
-}
+ .image1 {
+     background-image: url(../img/DSC07471\ left.jpg);
+     background-size: cover;
+     background-position: center;
+     width: 20em;
+     height: 30em;
+     z-index: 1;
+     margin-top: 6em;
+ }
 
-.image2 {
-    background-image: url(../img/DSC07471\ right.jpg);
-    background-size: cover;
-    background-position: center;
-    width: 10em;
-    height: 15em;
-    z-index: 2;
-    margin-left: 12em;
-    margin-top: -11em
-}
+ .image2 {
+     background-image: url(../img/DSC07471\ right.jpg);
+     background-size: cover;
+     background-position: center;
+     width: 10em;
+     height: 15em;
+     z-index: 2;
+     margin-left: 12em;
+     margin-top: -11em
+ }
 
-/* animations */
-@keyframes fadein {
-    0% {
-        opacity: 0;
-    }
+ /* animations */
+ @keyframes fadein {
+     0% {
+         opacity: 0;
+     }
 
-    100% {
-        opacity: 1;
-    }
-}
+     100% {
+         opacity: 1;
+     }
+ }
 
-#maxcenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
-    text-align: center;
-}
+ #maxcenter {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     width: 100%;
+     text-align: center;
+ }
 
-#maxcenter ul {
-    margin-top: .5em;
-}
+ #maxcenter ul {
+     margin-top: .5em;
+ }
 
-#maxcenter li {
-    margin-top: .1em;
-}
+ #maxcenter li {
+     margin-top: .1em;
+ }
 
-li {
-    list-style: none;
-}
+ li {
+     list-style: none;
+ }
 
-.instoogroom {
-    margin-top: -.5em;
-    margin-bottom: 1em;
-}
+ .instoogroom {
+     margin-top: -.5em;
+     margin-bottom: 1em;
+ }
 
-.instoogroom a {
-    text-decoration: underline;
-}
+ .instoogroom a {
+     text-decoration: underline;
+ }

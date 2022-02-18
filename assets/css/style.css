@@ -1,3 +1,5 @@
+@import url(//db.onlinewebfonts.com/c/76163db5a691010559b95db3a3e10fdc?family=Costa+Std);
+
 /* css reset */
 * {
     margin: 0;
@@ -28,6 +30,10 @@ a {
 
 a:hover {
     letter-spacing: .2em;
+}
+
+#logo {
+    font-family: Costa Std;
 }
 
 nav {
@@ -94,9 +100,8 @@ main #center {
     justify-content: center;
 }
 
-main #center iframe {
-    width: 60vw !important;
-    height: 69vh !important;
+main #center video {
+    width: 100%;
     margin-top: 2em;
     margin-bottom: 1em;
 }
@@ -194,6 +199,7 @@ li {
     margin-top: -.5em;
     margin-bottom: 1em;
 }
-.instoogroom a{
+
+.instoogroom a {
     text-decoration: underline;
 }

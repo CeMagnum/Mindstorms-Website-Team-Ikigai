@@ -121,24 +121,26 @@ main #center h2 {
     width: 60%;
 }
 
-#center .textcontainer p{
+#center .textcontainer p {
     text-align: center;
 }
 
-.row {
-    /* illcenterthedivstomorrow */
+#center .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.row img{
-    background-color: black;
-    margin: 20px;
-    object-fit: cover;
-    width: 25%;
-    height: 50%;   
+.row img {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 80%;
 }
 
 .image1 {
-    background-color: whitesmoke;
+    background-image: url(../img/DSC07471\ left.jpg);
+    background-size: cover;
+    background-position: center;
     width: 20em;
     height: 30em;
     z-index: 1;
@@ -146,7 +148,9 @@ main #center h2 {
 }
 
 .image2 {
-    background-color: teal;
+    background-image: url(../img/DSC07471\ right.jpg);
+    background-size: cover;
+    background-position: center;
     width: 10em;
     height: 15em;
     z-index: 2;
@@ -156,5 +160,40 @@ main #center h2 {
 
 /* animations */
 @keyframes fadein {
-    0% {opacity: 0;}
-    100%{opacity: 1;}}
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#maxcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: center;
+}
+
+#maxcenter ul {
+    margin-top: .5em;
+}
+
+#maxcenter li {
+    margin-top: .1em;
+}
+
+li {
+    list-style: none;
+}
+
+.instoogroom {
+    margin-top: -.5em;
+    margin-bottom: 1em;
+}
+.instoogroom a{
+    text-decoration: underline;
+}

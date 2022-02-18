@@ -104,6 +104,7 @@ main #center video {
     width: 100%;
     margin-top: 2em;
     margin-bottom: 1em;
+    background-color: #151922;
 }
 
 main #center h2 {
@@ -119,6 +120,21 @@ main #center h2 {
 }
 
 .textcontainer p {
+    text-align: left;
+}
+
+.textcontainer h2 {
+    font-family: Costa Std;
+    text-align: left;
+}
+
+#left .textcontainer p {
+    font-size: 2em;
+    margin-bottom: .3em;
+}
+
+.textcontainer #logo {
+    font-size: 5em;
     text-align: left;
 }
 
